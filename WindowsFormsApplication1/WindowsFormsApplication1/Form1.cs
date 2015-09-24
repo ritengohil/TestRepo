@@ -31,5 +31,11 @@ namespace WindowsFormsApplication1
             frmIntroduction frm = new frmIntroduction();
             frm.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmBranch_1 frm = new frmBranch_1();
+            frm.ShowDialog();
+        }
     }
 }
