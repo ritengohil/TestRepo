@@ -25,5 +25,11 @@ namespace WindowsFormsApplication1
         {
             MessageBox.Show("Enterd Name: " + txtName.Text);
         }
+
+        private void btnIntro_Click(object sender, EventArgs e)
+        {
+            frmIntroduction frm = new frmIntroduction();
+            frm.ShowDialog();
+        }
     }
 }

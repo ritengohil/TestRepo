@@ -31,6 +31,7 @@
             this.lblName = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnIntro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -63,11 +64,23 @@
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
+            // btnIntro
+            // 
+            this.btnIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIntro.Location = new System.Drawing.Point(29, 129);
+            this.btnIntro.Name = "btnIntro";
+            this.btnIntro.Size = new System.Drawing.Size(192, 29);
+            this.btnIntro.TabIndex = 3;
+            this.btnIntro.Text = "Show Introduction";
+            this.btnIntro.UseVisualStyleBackColor = true;
+            this.btnIntro.Click += new System.EventHandler(this.btnIntro_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.btnIntro);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblName);
@@ -83,6 +96,7 @@
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btnIntro;
     }
 }
 
