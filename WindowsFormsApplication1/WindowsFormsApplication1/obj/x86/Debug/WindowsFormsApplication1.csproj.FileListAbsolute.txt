@@ -5,3 +5,4 @@ C:\Users\rgohil_adm\Documents\GitHub\TestRepo\WindowsFormsApplication1\WindowsFo
 C:\Users\rgohil_adm\Documents\GitHub\TestRepo\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\rgohil_adm\Documents\GitHub\TestRepo\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
 C:\Users\rgohil_adm\Documents\GitHub\TestRepo\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\rgohil_adm\Documents\GitHub\TestRepo\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmIntroduction.resources
